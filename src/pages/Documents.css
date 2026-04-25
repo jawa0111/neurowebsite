@@ -1,0 +1,76 @@
+.documents-page {
+  padding-top: 80px;
+}
+
+.docs-hero {
+  min-height: 30vh;
+  text-align: center;
+}
+
+.docs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding: 50px 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.docs-section h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.file-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.file-card {
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.file-card:hover {
+  background: rgba(59, 130, 246, 0.05);
+  border-color: var(--primary);
+}
+
+.file-info h4 {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.file-info span {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.download-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.download-btn:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  .docs-grid {
+    grid-template-columns: 1fr;
+  }
+}

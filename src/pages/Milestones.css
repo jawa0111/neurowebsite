@@ -1,0 +1,125 @@
+.milestones-page {
+  padding-top: 80px;
+}
+
+.milestones-hero {
+  min-height: 30vh;
+  text-align: center;
+}
+
+.timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 5%;
+  position: relative;
+}
+
+.milestone-item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.milestone-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-icon {
+  width: 32px;
+  height: 32px;
+  background: var(--bg-color);
+  z-index: 1;
+}
+
+.status-icon.completed { color: var(--secondary); }
+.status-icon.in-progress { color: var(--accent); }
+.status-icon.pending { color: var(--text-muted); }
+
+.status-line {
+  width: 2px;
+  flex-grow: 1;
+  background: var(--border);
+  margin-top: 10px;
+}
+
+.milestone-item:last-child .status-line {
+  display: none;
+}
+
+.milestone-content {
+  flex-grow: 1;
+  padding: 30px;
+  transition: var(--transition);
+}
+
+.milestone-item.in-progress .milestone-content {
+  border-color: var(--accent);
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.1);
+}
+
+.ms-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.ms-header h3 {
+  font-size: 1.4rem;
+}
+
+.ms-date {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.milestone-content p {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.ms-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  padding-top: 15px;
+}
+
+.ms-marks {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.ms-status-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.ms-status-label.completed { background: rgba(16, 185, 129, 0.1); color: var(--secondary); }
+.ms-status-label.in-progress { background: rgba(245, 158, 11, 0.1); color: var(--accent); }
+.ms-status-label.pending { background: rgba(148, 163, 184, 0.1); color: var(--text-muted); }
+
+@media (max-width: 600px) {
+  .milestone-item {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .milestone-status {
+    flex-direction: row;
+    gap: 15px;
+  }
+  .status-line {
+    height: 2px;
+    width: 50px;
+    margin-top: 0;
+  }
+}

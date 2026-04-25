@@ -1,0 +1,101 @@
+.about-page {
+  padding-top: 80px;
+}
+
+.about-hero {
+  min-height: 30vh;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 50px 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.team-card {
+  padding: 40px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--primary);
+}
+
+.member-photo {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, var(--surface-color), var(--primary-glow));
+  border-radius: 50%;
+  margin: 0 auto 25px;
+}
+
+.team-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.member-role {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.team-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+}
+
+.member-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: var(--text-muted);
+}
+
+.member-socials svg:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.achievements {
+  margin: 100px 5%;
+  padding: 60px;
+  text-align: center;
+}
+
+.ach-icon {
+  color: var(--accent);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.achievements h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.ach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.ach-item h4 {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.ach-item p {
+  color: var(--text-muted);
+}
