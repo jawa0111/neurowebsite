@@ -4,10 +4,10 @@ import './About.css';
 
 const About = () => {
   const team = [
-    { name: "Y.Manulakshan", role: "Team Lead", bio: "Expert in project management and AI/ML integration.", image: "/src/assets/maniu.png" },
-    { name: "Mathumitha.G", role: "Frontend Developer", bio: "Specializes in React applications and user interface design.", image: "/src/assets/mathumitha.png" },
-    { name: "L.M.Sylvester", role: "Backend Developer", bio: "Focused on server-side architecture and database management.", image: "/src/assets/marino.png" },
-    { name: "G.JudeJawakker", role: "AI/ML Engineer", bio: "Expert in machine learning models and computer vision.", image: "/src/assets/jude.png" }
+    { name: "Y.Manulakshan", role: "Team Lead", bio: "Expert in project management and AI/ML integration.", image: "/images/maniu.png" },
+    { name: "Mathumitha.G", role: "Frontend Developer", bio: "Specializes in React applications and user interface design.", image: "/images/mathumitha.png" },
+    { name: "L.M.Sylvester", role: "Backend Developer", bio: "Focused on server-side architecture and database management.", image: "/images/marino.png" },
+    { name: "G.JudeJawakker", role: "AI/ML Engineer", bio: "Expert in machine learning models and computer vision.", image: "/images/jude.png" }
   ];
 
   return (
