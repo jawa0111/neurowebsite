@@ -4,10 +4,10 @@ import './About.css';
 
 const About = () => {
   const team = [
-    { name: "Alex Johnson", role: "AI/ML Lead", bio: "Expert in Computer Vision and MediaPipe integrations." },
-    { name: "Sarah Chen", role: "Frontend Architect", bio: "Specializes in high-performance React applications." },
-    { name: "Mike Ross", role: "Researcher", bio: "Focused on sports biomechanics and performance analytics." },
-    { name: "Elena Rodriguez", role: "UI/UX Designer", bio: "Creates intuitive interfaces for athletic training." }
+    { name: "Y.Manulakshan", role: "Team Lead", bio: "Expert in project management and AI/ML integration.", image: "/src/assets/maniu.png" },
+    { name: "Mathumitha.G", role: "Frontend Developer", bio: "Specializes in React applications and user interface design.", image: "/src/assets/mathumitha.png" },
+    { name: "L.M.Sylvester", role: "Backend Developer", bio: "Focused on server-side architecture and database management.", image: "/src/assets/marino.png" },
+    { name: "G.JudeJawakker", role: "AI/ML Engineer", bio: "Expert in machine learning models and computer vision.", image: "/src/assets/jude.png" }
   ];
 
   return (
@@ -20,7 +20,7 @@ const About = () => {
       <div className="team-grid">
         {team.map((member, idx) => (
           <div key={idx} className="team-card glass">
-            <div className="member-photo"></div>
+            <div className="member-photo" style={{ backgroundImage: `url(${member.image})` }}></div>
             <h3>{member.name}</h3>
             <span className="member-role">{member.role}</span>
             <p>{member.bio}</p>
