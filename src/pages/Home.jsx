@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Zap, Target, BarChart3, Users, Play, ChevronRight } from 'lucide-react';
+import { Zap, Target, BarChart3, Users, Play, ChevronRight, FileText, Download } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
@@ -24,6 +24,16 @@ const Home = () => {
       icon: <Users className="feature-icon" />,
       title: "Multi-exercise Support",
       desc: "Comprehensive support for jumps, squats, push-ups and more."
+    },
+    {
+      icon: <FileText className="feature-icon" />,
+      title: "Documentation Hub",
+      desc: "Access comprehensive project documentation, research papers, and technical reports."
+    },
+    {
+      icon: <Download className="feature-icon" />,
+      title: "Resource Downloads",
+      desc: "Download presentation slides, checklists, and project deliverables instantly."
     }
   ];
 
