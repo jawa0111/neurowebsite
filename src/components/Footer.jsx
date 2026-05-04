@@ -31,9 +31,9 @@ const Footer = () => {
 
         <div className="footer-contact">
           <h4>Contact</h4>
-          <p>SLIIT Northern Campus</p>
+          <p>SLIIT Malabe Campus</p>
           <p>Sri Lanka</p>
-          <p>info@neuromotion.ai</p>
+          <p>sliit malabe campus neuromotion@gmail.com</p>
         </div>
       </div>
       
