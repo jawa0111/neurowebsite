@@ -33,7 +33,7 @@ const Footer = () => {
           <h4>Contact</h4>
           <p>SLIIT Malabe Campus</p>
           <p>Sri Lanka</p>
-          <p>sliit malabe campus neuromotion@gmail.com</p>
+          <p>neuromotion@gmail.com</p>
         </div>
       </div>
       
