@@ -59,7 +59,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <span className="hero-tagline">AI-Powered Athletic Training Revolution</span>
+          <span className="hero-tagline">Athlete Performance and Training AI System</span>
           <h1 className="hero-title grad-text">Elevate Your Performance with NeuroMotion</h1>
           <p className="hero-desc">
             Democratizing professional-grade athletic training through real-time AI pose estimation and predictive analytics.
