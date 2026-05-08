@@ -11,6 +11,11 @@ const Domain = () => {
       icon: <BookOpen className="domain-icon" />,
       title: "Literature Survey",
       content: [
+        "The integration of computer vision and machine learning in athletic training has seen significant advancement in recent years. Research focuses on real-time pose estimation, exercise classification, and performance analysis to enhance training effectiveness.",
+        "Modern approaches utilize deep learning techniques like convolutional neural networks and transformer-based models to achieve high accuracy in human pose estimation and activity recognition.",
+        "Key challenges identified in existing research include real-time processing constraints, multi-exercise support, and the need for personalized training adaptations.",
+        "Recent developments in mobile-friendly models like BlazePose and efficient architectures like MobileNetV2 have enabled on-device deployment, reducing latency and improving accessibility.",
+        "The convergence of sensor fusion techniques combining inertial measurement units with computer vision provides more robust motion tracking in dynamic athletic environments.",
         "[1] C. Chen, R. Jafari, and N. Kehtarnavaz, A real-time human action recognition system using depth and inertial sensor fusion, IEEE Sensors J., vol. 16, no. 3, pp. 773–781, Feb. 2016.",
         "[2] M. A. O'Reilly et al., Technology in strength and conditioning: Assessing body weight squat performance, J. Strength Cond. Res., vol. 31, no. 2, pp. 549–555, Feb. 2017.",
         "[3] T. Dressler, J. Witt, and M. Schmitt, Comparison of optical motion capture and inertial measurement unit methods for measuring joint angles in athletic movements, Sensors, vol. 21, no. 9, pp. 3159–3169, Apr. 2021.",
@@ -18,14 +23,9 @@ const Domain = () => {
         "[5] Z. Cao et al., OpenPose: Realtime multi-person 2D pose estimation using part affinity fields, IEEE Trans. Pattern Anal. Mach. Intell., vol. 43, no. 1, pp. 172–186, Jan. 2021.",
         "[6] V. Bazarevsky et al., BlazePose: On-device real-time body pose tracking, in Proc. CVPR Workshop Comput. Vis. Sports, 2020, pp. 1–8.",
         "[7] H. Fang et al., RMPE: Regional multi-person pose estimation, in Proc. IEEE Int. Conf. Comput. Vis. (ICCV), Venice, Italy, 2017, pp. 2334–2343.",
-        "[8] S. Bridgeman et al., Multi-person 3D pose estimation and tracking in sports, in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. Workshops (CVPRW), Seattle, WA, USA, 2019, pp. 2861–2870.",
-        "[9] A. Ignatov, Real-time human activity recognition from accelerometer data using convolutional neural networks, Appl. Soft Comput., vol. 62, pp. 915–922, Jan. 2018.",
-        "[10] A. Pestana, J. Lima, and J. S. Marques, Automatic exercise classification using deep learning, in Proc. IEEE Int. Conf. Auton. Robot Syst. (ICARS), Lisbon, Portugal, 2022, pp. 1–6.",
-        "[11] C. Wang, A. Bochkovskiy, and H. Liao, YOLOv7: Trainable bag of freebies sets new state-of-the-art for real-time object detectors, in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Vancouver, Canada, 2023, pp. 7464–7475.",
-        "[12] T. Lin et al., Microsoft COCO: Common objects in context, in Proc. Eur. Conf. Comput. Vis. (ECCV), Zurich, Switzerland, 2014, pp. 740–755.",
-        "[13] J. Redmon et al., You only look once: Unified, real-time object detection, in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Las Vegas, NV, USA, 2016, pp. 779–788.",
-        "[14] G. Jocher, A. Chaurasia, and J. Qiu, Ultralytics YOLOv8, GitHub, Jan. 2023. [Online]. Available: https://github.com/ultralytics/ultralytics",
-        "[15] K. He et al., Deep residual learning for image recognition, in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Las Vegas, NV, USA, 2016, pp. 770–778."
+        "[8] A. Ignatov, Real-time human activity recognition from accelerometer data using convolutional neural networks, Appl. Soft Comput., vol. 62, pp. 915–922, Jan. 2018.",
+        "[9] A. Pestana, J. Lima, and J. S. Marques, Automatic exercise classification using deep learning, in Proc. IEEE Int. Conf. Auton. Robot Syst. (ICARS), Lisbon, Portugal, 2022, pp. 1–6.",
+        "[10] K. He et al., Deep residual learning for image recognition, in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Las Vegas, NV, USA, 2016, pp. 770–778."
       ]
     },
     {
