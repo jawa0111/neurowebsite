@@ -7,6 +7,41 @@
   text-align: center;
 }
 
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 40px 0;
+  color: var(--primary);
+}
+
+.supervisors-section {
+  margin-bottom: 60px;
+}
+
+.supervisors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  padding: 0 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.supervisor-card {
+  padding: 40px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.supervisor-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--primary);
+}
+
+.team-section {
+  margin-bottom: 60px;
+}
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
