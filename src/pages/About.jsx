@@ -4,8 +4,8 @@ import './About.css';
 
 const About = () => {
   const supervisors = [
-    { name: "Pradeep", role: "Supervisor", bio: "Expert in AI and machine learning with extensive research experience in computer vision and sports analytics.", image: "/images/pradeep.jpeg" },
-    { name: "Akshi DeSilva", role: "Co-Supervisor", bio: "Specialist in software engineering and human-computer interaction, focusing on user experience design.", image: "/images/akshi.jpeg" }
+    { name: "Pradeep K.W. Abeygunawardhana", role: "Supervisor", bio: "Expert in AI and machine learning with extensive research experience in computer vision and sports analytics.", image: "/images/pradeep.jpeg" },
+    { name: "Akshi De Silva", role: "Co-Supervisor", bio: "Specialist in software engineering and human-computer interaction, focusing on user experience design.", image: "/images/akshi.jpeg" }
   ];
 
   const team = [
